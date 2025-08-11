@@ -1,0 +1,203 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: white;
+}
+
+.container{
+  border: 4px solid rgb(0, 179, 255);
+  border-radius: 10px;
+  margin: 20px;
+  height: fit-content
+ 
+}
+
+/* Hero Styles */
+.hero{
+  width: 99%;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(17, 151, 178, 0.1);
+  padding: 6.5px;
+  border-bottom: 30px solid #c9d3e1;
+}
+
+.hero-image img{
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.reach-me{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+}
+
+.reach-me-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reach-me-text h3{
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+.reach-me-text a:nth-child(2){
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.reach-me-text a:nth-child(3){
+  font-size: 15px;
+  font-style: italic;
+  color: black;
+  font-weight: thin;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.reach-me-text a:nth-child(4){
+  font-size: 15px;
+  font-style: italic;
+  color: black;
+  font-weight: thin;
+  text-decoration: none;
+}
+
+.social-icons{
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+/* Portifolio */
+.portfoilio-header{
+  text-align: center;
+  font-size: 25px;
+}
+
+.portfoilio-header h3{
+  margin: 0;
+}
+
+.portfolio-details{
+  margin: 2px;
+  display: flex;
+  gap: 3%;
+  width: 100%;
+}
+
+.portfolio-details p{
+  margin: 10px;
+}
+
+.portfolio-details h3{
+  margin: 10px;
+}
+
+.portfolio-left{
+  width: 50%;
+}
+
+.portfolio-right{
+  width: 46%;
+}
+
+.head-details{
+  margin: 10px;
+  background: #d3d3d3;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 30px;
+}
+
+.university{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.the-bulb-africa{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* contact */
+.contact{
+  background-color:#e4e4fa;
+  margin: 20px 50px;
+  border: 2px solid #e4e4fa;
+  border-radius: 20px;
+}
+
+.contact h3{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0px;
+}
+
+.contact-container{
+  display: flex;
+}
+
+.contact-form{
+  width: 50%;
+  margin: 20px;
+}
+
+.your-name{
+  width: 90%;
+  height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.email{
+   width: 90%;
+  height: 20px;
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.text-area{
+  width: 90%; 
+  height: 130px; 
+  padding: 10px; 
+  font-size: 16px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007BFF;    
+  color: white;                 
+  border: none;                
+  padding: 10px 20px;           
+  font-size: 16px;              
+  border-radius: 5px;          
+  cursor: pointer;              
+  transition: background-color 0.3s ease; 
+  margin-top: 10px;             /
+}
+
+/* Hover effect */
+.submit-button:hover {
+  background-color: #0056b3;    
+}
+
+.map{
+  padding: 10px;
+}
